@@ -86,7 +86,7 @@ export class News extends Component {
 
   render() {
     return (
-      <>
+      <div role='contentinfo'>
         <h1 className='text-center' style={{ marginTop: "80px" }}>News corner - Top {this.capitalize(this.props.category)} headlines</h1>
         {this.state.loading && <Spinner />}
         <InfiniteScroll
@@ -105,7 +105,7 @@ export class News extends Component {
             </div>
           </div>
         </InfiniteScroll>
-      </>
+      </div>
     )
   }
 }
