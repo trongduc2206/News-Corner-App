@@ -19,7 +19,7 @@ export class NewsItem extends Component {
             </span>
             <img src={imageUrl} loading='lazy' onError={this.handleImageError}  className="card-img-top" alt="..."/>
             <div className="card-body">
-                <h5 className="card-title">{title}...</h5>
+                <h2 className="card-title">{title}...</h2>
                 <p className="card-text">{description}...</p>
                 <p className="card-text"><small className="text-muted">By {author} on {new Date(date).toGMTString()}</small></p>
                 <a href={newsUrl} target='_blanck' className="btn btn-sm btn-primary">Read more</a>
