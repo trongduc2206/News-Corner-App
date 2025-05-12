@@ -30,5 +30,6 @@ jobs:
         with:
           url: 'http://localhost:8080'
           service_id: 'newscorner99400'
+          tools: 'axe,pa11y'
       - name: Stop Local Server
         run: pkill http-server || true
