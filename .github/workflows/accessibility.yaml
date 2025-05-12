@@ -25,7 +25,8 @@ jobs:
           sleep 5
       - name: Evaluate accessibility
         # uses: trongduc2206/accessibility-hub-runner@91d23232898b98ad478ff988bb5a9f882f983ae8
-        uses: trongduc2206/accessibility-hub-runner@622980486761c392e73b596b9357bb1655ce8e91
+        # uses: trongduc2206/accessibility-hub-runner@622980486761c392e73b596b9357bb1655ce8e91
+        uses: trongduc2206/accessibility-hub-runner@12a0c7e47d843f4a48c6efd54379b8882194db4d
         with:
           url: 'http://localhost:8080'
           service_id: 'newscorner99400'
