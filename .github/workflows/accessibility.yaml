@@ -28,7 +28,7 @@ jobs:
         # uses: trongduc2206/accessibility-hub-runner@622980486761c392e73b596b9357bb1655ce8e91
         # uses: trongduc2206/accessibility-hub-runner@2b26b15c29ca5b2e52b791b44a3ab89751948fb2
         # uses: trongduc2206/accessibility-hub-runner@bc1a61a9c685f4ada022dd35972147cd312106ee
-        uses: trongduc2206/accessibility-hub-runner@e0c2506dff3da025bda0ea2a80717b15b5b6aa25
+        uses: trongduc2206/accessibility-hub-runner@db8696d3d71a0764337686db807fceb6a3205098
         with:
           url: 'http://localhost:8080'
           service_id: 'newscorner70760'
