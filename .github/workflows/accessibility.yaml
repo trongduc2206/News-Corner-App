@@ -33,7 +33,7 @@ jobs:
         uses: trongduc2206/accessibility-hub-runner@9b324d2e35ad8569e18f4e548aa11bf907f1adfb
         with:
           url: 'http://localhost:8080'
-          service_id: 'newscorner70760'
+          service_id: 'newscornerapp73347'
           tools: 'axe,pa11y'
       - name: Stop Local Server
         run: pkill http-server || true
