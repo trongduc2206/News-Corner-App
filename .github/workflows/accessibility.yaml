@@ -29,7 +29,8 @@ jobs:
         # uses: trongduc2206/accessibility-hub-runner@2b26b15c29ca5b2e52b791b44a3ab89751948fb2
         # uses: trongduc2206/accessibility-hub-runner@bc1a61a9c685f4ada022dd35972147cd312106ee
         # uses: trongduc2206/accessibility-hub-runner@d1bdb4fb894a04d100af01b3ad239226008fd93e
-        uses: trongduc2206/accessibility-hub-runner@2c20526390447fd8026272d9e37561cc76373950
+        # uses: trongduc2206/accessibility-hub-runner@2c20526390447fd8026272d9e37561cc76373950
+        uses: trongduc2206/accessibility-hub-runner@9b324d2e35ad8569e18f4e548aa11bf907f1adfb
         with:
           url: 'http://localhost:8080'
           service_id: 'newscorner70760'
