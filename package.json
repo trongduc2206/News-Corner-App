@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "accessibility": "docker run --rm -p 3000:3000 --shm-size=1g -e TARGET_URL=\"http://localhost:3000\" -e SERVICE_ID=\"newscornerapp73347\" -e TOOL=axe -e AXE_MODE=all accessibility-hub-runner:3.0"
+    "accessibility": "docker run --rm -p 3000:3000 --shm-size=1g -e TARGET_URL=\"http://localhost:3000\" -e SERVICE_ID=\"newscorner17804\" -e TOOL=axe -e AXE_MODE=all accessibility-hub-runner:3.0"
   },
   "eslintConfig": {
     "extends": [
